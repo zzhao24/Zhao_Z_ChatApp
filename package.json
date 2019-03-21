@@ -1,0 +1,20 @@
+{
+  "name": "zhao_z_chatapp",
+  "version": "1.0.0",
+  "description": "social media app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzhao24/Zhao_Z_ChatApp.git"
+  },
+  "author": "Zhiqing Zhao",
+  "license": "ISC",
+  "homepage": "https://github.com/zzhao24/Zhao_Z_ChatApp#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
