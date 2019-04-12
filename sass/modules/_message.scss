@@ -13,6 +13,17 @@
 
 .my-message {
     float: right !important;
-    background-color: #86bf9d;
-    color: white;
+    background-color: white !important;
+    color: black !important;
+}
+
+.system-message{
+	width: 100%;
+	color: #ffffff;
+	&.connected{
+		background-color: rgba(#28a745, .5);
+	}
+	&.disconnect{
+		background-color: rgba(#dc3545, .5);
+	}
 }
